@@ -3,8 +3,7 @@ import datetime
 import time
 print('Hey!! user, My name is M.A.I.T and I am A.I. designed by my Boss.')
 user_name = str(input('\nWhat Should I call you:\t'))
-if type(user_name) == str:
-    print('\nHye!',user_name,' Nice to meet you.')
+print('\nHye!',user_name,' Nice to meet you.')
 print('\nToday Date and Time is:' ,datetime.datetime.now())
 print('\nWhat Can I do for you\n\nHere are some keywords::-> Enter serial No. only.\n\n1.Add\n2.Sub\n3.Multi\n4.Division\n5.Area\n6.Trigonometry\n7.Square root\n8.Cube root\n9.Log')
 user_task = str(input('\nEnter Your Task: '))
@@ -94,7 +93,7 @@ while user_input != computer_guess:
            print('Low! Guess Again')
       else:
            print('Yeah You got it.')       
-print('\nEnd of Program!! See you again',user_name,'Bye-~~-Bye')
+print('\nEnd of Program!! Goodbye! See you again',user_name,'Bye-~~-Bye')
 
                     
                     
